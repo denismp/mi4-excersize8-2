@@ -258,3 +258,12 @@ Submit your zip file as homework at the course platform.
 /Users/denisputnam/git/mi4-exercise8-2>node -v
 v10.14.2
 
+Go to https://iancoleman.io/bip39/
+
+1. Change to 12 words for the GENERATE
+2. Make sure you are on the BIP44 tab
+3. Change Coin to ETH
+4. Click GENERATE
+5. Pick the first address at the bottom after you scroll.
+6. Copy the address.
+7. Go to your Metamask and fund the address so that you can deploy to it.
