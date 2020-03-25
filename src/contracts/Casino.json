@@ -9531,9 +9531,42 @@
     "name": "solc",
     "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "3": {
+      "events": {
+        "0x3344f5fd342f3ea7ff85f876ded3c730b7e178bb122d13c1c186a276e77b037f": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "randomNumber",
+              "type": "string"
+            }
+          ],
+          "name": "generatedRandomNumber",
+          "type": "event"
+        },
+        "0xc4dc360d0a9c0677a3379ae0a3d81e887f761e65fdf3d7e00859d1bcd3c47389": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "description",
+              "type": "string"
+            }
+          ],
+          "name": "LogNewProvableQuery",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x3769857076B530571413D360A3a8f542280E001c",
+      "transactionHash": "0x0da7dd3db849f24b35d486e07bc9f720d41c7e1efea4db014f8c9df03c4c28b6"
+    }
+  },
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-03-25T19:47:07.807Z",
+  "updatedAt": "2020-03-25T20:08:13.939Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {
       "__callback(bytes32,string)": {

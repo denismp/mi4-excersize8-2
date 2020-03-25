@@ -7,14 +7,16 @@ import CasinoInterface from "./contracts/Casino.json";
 const ABI = CasinoInterface.abi
 
 // REPLACE WITH YOUR OWN KEY
-const INFURA_KEY = "YOUR-OWN-INFURA-KEY";
+//const INFURA_KEY = "YOUR-OWN-INFURA-KEY";
+const INFURA_KEY = "71809312d45241e494510af1fe966dff";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     
     // Change this to your contract address
-    this.contractAddress = "YOUR-OWN-CONTRACT-ADDRESS"
+    //this.contractAddress = "YOUR-OWN-CONTRACT-ADDRESS"
+    this.contractAddress = "0x3769857076B530571413D360A3a8f542280E001c"
 
     this.validBets = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     this.state = {
