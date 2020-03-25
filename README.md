@@ -251,3 +251,10 @@ b.	Etherscan contract link.
 2.	Screenshots of the terminal: truffle compilation, truffle migration.
 
 Submit your zip file as homework at the course platform.
+
+/Users/denisputnam/git/mi4-exercise8-2>npm -v
+6.4.1
+(base) Deniss-IMAC.fios-router.home:denisputnam
+/Users/denisputnam/git/mi4-exercise8-2>node -v
+v10.14.2
+
