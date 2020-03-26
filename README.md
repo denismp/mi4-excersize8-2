@@ -267,3 +267,10 @@ Go to https://iancoleman.io/bip39/
 5. Pick the first address at the bottom after you scroll.
 6. Copy the address.
 7. Go to your Metamask and fund the address so that you can deploy to it.
+
+
+LATEST:
+ 587  ipfs add --recursive /Users/denisputnam/git/mi4-exercise8-2/build
+  588  history
+  589  ipfs name publish QmUiy4M8RebxruLJbU5VRmZcZZ9Y1YBGoZoSLB8W5bfxgD
+

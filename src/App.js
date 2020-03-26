@@ -16,7 +16,7 @@ class App extends React.Component {
     
     // Change this to your contract address
     //this.contractAddress = "YOUR-OWN-CONTRACT-ADDRESS"
-    this.contractAddress = "0x3769857076B530571413D360A3a8f542280E001c"
+    this.contractAddress = "0xD7fec0D3857E5d661d860d665929b0D9518E4eE9"
 
     this.validBets = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     this.state = {
